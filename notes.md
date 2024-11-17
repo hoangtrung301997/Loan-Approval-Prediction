@@ -35,9 +35,11 @@
 
     *loan_int_rate*: 3116
 
-#### Possible reasons why it is missing
+## Handling Missing Data
 
-##### *person_emp_length*: Currently unemloyed, self-employed, irregular employment history, or mistake
+### Possible reasons why it is missing
+
+#### *person_emp_length*: Currently unemloyed, self-employed, irregular employment history, or mistake
 
 Based on this discovery, I am going to set the person_emp_length that has a null value to 0, and the income came somewhere else other than working.
 
@@ -48,7 +50,7 @@ Here are some screenshots of person_emp_length and income
 ![alt text](image-2.png)
 
 
-##### *loan_int_rate*: Loan not finalized, variable interest rates, data entry issues
+#### *loan_int_rate*: Loan not finalized, variable interest rates, data entry issues
 
 This is a bit tricky so I wont be using any simple impution such as mean/median since loans with missing interest rates have a higher approval rate, filling in missing values with the average or median interest rate could underestimate the actual rates for those loans. For filling these missing data I am going to try and use KNN Imputer because it considers the values of similioar loans to estimate the missing interest rates.
 
@@ -57,3 +59,9 @@ Here are some screenshots of some of the findings that could have some correlati
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
+## Preparing the data
+
+### Encode Categorical Features
+
+Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_default_on_file* are objects we need to convert the categorical featues into numerical representations
