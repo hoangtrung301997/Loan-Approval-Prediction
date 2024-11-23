@@ -65,3 +65,5 @@ Here are some screenshots of some of the findings that could have some correlati
 ### Encode Categorical Features
 
 Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_default_on_file* are objects we need to convert the categorical featues into numerical representations
+
+## Techniques 
