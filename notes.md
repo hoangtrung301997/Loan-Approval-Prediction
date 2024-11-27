@@ -66,4 +66,53 @@ Here are some screenshots of some of the findings that could have some correlati
 
 Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_default_on_file* are objects we need to convert the categorical featues into numerical representations
 
-## Techniques 
+## Techniques Tried
+
+### Logistic Regression (Default) [Removing]
+
+    Accuracy: 0.8181
+    Precision: 0.6806
+    Recall: 0.3035
+    F1 Score: 0.4198
+
+### Decision Tree Classifier (Default)
+
+    Accuracy: 0.8868
+    Precision: 0.7280
+    Recall: 0.7628
+    F1 Score: 0.7450
+
+### Random Forest Classifer (Default)
+
+    Accuracy: 0.9332
+    Precision: 0.9780
+    Recall: 0.7080
+    F1 Score: 0.8214
+
+### Support Vector Machines (Default) [Removing]
+
+    Accuracy: 0.7967
+    Precision: 0.8302
+    Recall: 0.0779
+    F1 Score: 0.1424
+
+### K-Nearest Neighbors (Default)
+
+    Accuracy: 0.8314
+    Precision: 0.6409
+    Recall: 0.5053
+    F1 Score: 0.5651
+
+### Gradient Boosting Machines (Default)
+
+    Accuracy: 0.9348
+    Precision: 0.9604
+    Recall: 0.7292
+    F1 Score: 0.8290
+
+### Naive Bayes (Default) [Removing]
+
+    Accuracy: 0.8143
+    Precision: 0.6800
+    Recall: 0.2708
+    F1 Score: 0.3873
