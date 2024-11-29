@@ -89,6 +89,28 @@ Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_defa
     Recall: 0.7080
     F1 Score: 0.8214
 
+![alt text](image-5.png)
+
+    'person_home_ownership_MORTGAGE' = 0 
+    'person_home_ownership_OTHER' = 1
+    'person_home_ownership_OWN' = 2 
+    'person_home_ownership_RENT' = 3
+    'loan_intent_DEBTCONSOLIDATION' = 4
+    'loan_intent_EDUCATION' = 5
+    'loan_intent_HOMEIMPROVEMENT' = 6
+    'loan_intent_MEDICAL' = 7
+    'loan_intent_PERSONAL' = 8 
+    'loan_intent_VENTURE' = 9 
+    'loan_grade_A' = 10
+    'loan_grade_B' = 11
+    'loan_grade_C' = 12 
+    'loan_grade_D' = 13 
+    'loan_grade_E' = 14
+    'loan_grade_F' = 15 
+    'loan_grade_G' = 16 
+    'cb_person_default_on_file_N' = 17
+    'cb_person_default_on_file_Y' = 18
+
 ### Support Vector Machines (Default) [Removing]
 
     Accuracy: 0.7967
@@ -109,6 +131,28 @@ Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_defa
     Precision: 0.9604
     Recall: 0.7292
     F1 Score: 0.8290
+
+![alt text](image-6.png)
+
+    'person_home_ownership_MORTGAGE' = 0 
+    'person_home_ownership_OTHER' = 1
+    'person_home_ownership_OWN' = 2 
+    'person_home_ownership_RENT' = 3
+    'loan_intent_DEBTCONSOLIDATION' = 4
+    'loan_intent_EDUCATION' = 5
+    'loan_intent_HOMEIMPROVEMENT' = 6
+    'loan_intent_MEDICAL' = 7
+    'loan_intent_PERSONAL' = 8 
+    'loan_intent_VENTURE' = 9 
+    'loan_grade_A' = 10
+    'loan_grade_B' = 11
+    'loan_grade_C' = 12 
+    'loan_grade_D' = 13 
+    'loan_grade_E' = 14
+    'loan_grade_F' = 15 
+    'loan_grade_G' = 16 
+    'cb_person_default_on_file_N' = 17
+    'cb_person_default_on_file_Y' = 18
 
 ### Naive Bayes (Default) [Removing]
 
