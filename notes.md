@@ -160,3 +160,36 @@ Since *person_home_ownership* , *loan_intent*, *loan_grade*, and *cb_person_defa
     Precision: 0.6800
     Recall: 0.2708
     F1 Score: 0.3873
+
+
+## Feature Selection Techniques
+
+### Selection Top Features (10, 15, 20)
+
+    10 - Features
+    XGB -> Recall: 0.6708, F1 Score: 0.7754
+    RF -> Recall: 0.6690, F1 Score: 0.7806
+    
+    15 - Features
+    XGB -> Recall: 0.7301, F1 Score: 0.8238
+    RF -> Recall: 0.7106, F1 Score: 0.8244
+
+    20 -> Features
+    XGB -> Recall: 0.7239, F1 Score: 0.8238
+    RF -> Recall: 0.7168, F1 Score: 0.8278
+
+### Percentile-Based Selection
+
+    XGB
+    Accuracy: 0.9022
+    Precision: 0.8507
+    Recall: 0.6655
+    F1 Score: 0.7468
+
+    RF
+    Accuracy: 0.9008
+    Precision: 0.8448
+    Recall: 0.6646
+    F1 Score: 0.7439
+
+### Recursive Feature Elimination (RFE)
